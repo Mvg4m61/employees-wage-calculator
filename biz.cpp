@@ -8,7 +8,7 @@ int main()
 {
     // Open the file
     ifstream inFile;
-    inFile.open("business.txt");
+    inFile.open("./business.csv");
 
     // Test for errors
     if (inFile.fail())
